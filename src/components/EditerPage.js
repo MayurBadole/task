@@ -77,6 +77,7 @@ const EditerPage = () => {
     if (shape === "rectangle") addRectangle();
     if (shape === "circle") addCircle();
     if (text) addText(text);
+    // eslint-disable-next-line
   }, [shape, text]);
 
   return (
